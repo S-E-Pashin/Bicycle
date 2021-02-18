@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  width: 100%;
+
+
+  background-color: $bg_second_color;
+
+  @media (max-width: $tablet_max) {
+    min-width: $mobile_min;
+    background-color: $bg_main_color;
+  }
+
+  //margin: 0;
+  //padding: 0;
+  //background-color: red;
+}
