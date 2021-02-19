@@ -78,7 +78,7 @@
   vertical-align: center;
   color: $text_second_color;
 
-  @media (max-width: $mobile_max) {
+  @media (max-width: $tablet_max) {
     padding-left: 23px;
   }
 }

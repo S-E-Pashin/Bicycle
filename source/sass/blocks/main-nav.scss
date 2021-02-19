@@ -24,9 +24,9 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 62.39vw;
+  width: 60.7vw;
   margin: 28px 0 0 0;
-  padding: 0;
+  padding: 0 19px 15px 19px;
   border-bottom: 1px solid $border_first_color;
 
   @media (max-width: $tablet_max) {
@@ -41,7 +41,6 @@
 
 .main-nav__item {
   position: relative;
-  margin-left: 38px;
   list-style: none;
 
   @media (max-width: $tablet_max) {
