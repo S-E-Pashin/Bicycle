@@ -14,6 +14,8 @@
       display: none;
     }
   }
+
+  //background-color: red;
 }
 
 .main-nav__list {
@@ -25,7 +27,7 @@
   width: 62.39vw;
   margin: 28px 0 0 0;
   padding: 0;
-  border-bottom: 1px solid $border;
+  border-bottom: 1px solid $border_first_color;
 
   @media (max-width: $tablet_max) {
     flex-direction: column;
@@ -71,7 +73,7 @@
   font-weight: 300;
   text-align: center;
 
-  color: $bg_main_color;
+  color: $bg_first_color;
 
   @media (max-width: $tablet_max) {
     font-size: 20px;

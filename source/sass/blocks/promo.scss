@@ -1,1 +1,111 @@
-//#
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  min-height: 268px;
+  margin: 0 0 0 2.92vw;
+  color: $bg_first_color;
+
+  @media (max-width: $tablet_max) {
+    align-items: center;
+    margin: 0;
+    min-height: 260px;
+    //padding: 0 0 216px 0;
+  }
+
+  @media (max-width: $mobile_max) {
+    min-height: 320px;
+    min-width: $mobile_min;
+  }
+  //background-color: green;
+}
+
+.promo__heading {
+  width: 307px;
+
+  @media (max-width: $tablet_max) {
+    width: 68.44vw;
+    margin-top: 66px;
+  }
+
+  @media (max-width: $mobile_max) {
+    margin-top: 51px;
+    min-width: $mobile_min;
+  }
+}
+
+.promo__heading h2 {
+  font-size: 46px;
+  line-height: 64px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+
+  @media (max-width: $tablet_max) {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+}
+
+.promo--text {
+  width: 350px;
+
+  @media (max-width: $tablet_max) {
+    width: 50vw;
+  }
+
+  @media (max-width: $mobile_max) {
+    width: 83vw;
+    min-width: $mobile_min;
+  }
+}
+
+.promo--text p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: left;
+
+  @media (max-width: $tablet_max) {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.promo__button-logo-wrapper {
+  @media (max-width: $tablet_max) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-width: $mobile_min;
+  }
+}
+
+.promo__logo {
+  @media (max-width: $tablet_max) {
+    margin: 24px 0 0 22px;
+  }
+
+  @media (max-width: $mobile_max) {
+    margin: 24px 0 0 17px;
+  }
+}
+
+.promo__button-nav {
+  display: none;
+
+  @media (max-width: $tablet_max) {
+    display: block;
+    width: 49px;
+    height: 51px;
+    background-color: $button_color_form;
+    background-image: url("../img/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}

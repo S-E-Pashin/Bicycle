@@ -4,10 +4,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
+  //background-image: url("../img/promo-img.jpg");
 }
 
 html {
   box-sizing: border-box;
+  //background-color: $bg_second_color;
 }
 
 *,
@@ -42,20 +44,3 @@ input[type="radio"].visually_hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-//// Комментирую для нахождения лучшего решения.
-//@media (min-width: @tablet_width) {
-//  body {
-//    // margin: 0 auto;
-//    // width: auto;
-//  }
-//}
-//
-//@media (min-width: @desktop_width) {
-//  body {
-//    // margin: 0 auto;
-//    // width: 960px;
-//  }
-//}
-//// //
-// Здесь хранятся пути файлов которые должны подключаться/импортироваться
-//В less это выглядит так:@import "blocks/photo.less";

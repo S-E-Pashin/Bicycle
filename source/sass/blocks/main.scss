@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+
+  //background-color: white;
+}
+
+.main__promo-form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  width: 65.8vw;
+  margin: 256px 0 0 0;
+
+  @media (max-width: $tablet_max) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  //background-color: blue;
+}

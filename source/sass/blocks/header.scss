@@ -7,11 +7,12 @@
   width: 100%;
 
 
-  background-color: $bg_second_color;
+  //background-color: $bg_second_color;
+  //background-image: url("../img/promo-img.jpg");
 
   @media (max-width: $tablet_max) {
     min-width: $mobile_min;
-    background-color: $bg_main_color;
+    background-color: $bg_first_color;
   }
 
   //margin: 0;
