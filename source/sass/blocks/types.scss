@@ -13,6 +13,7 @@
   }
 
   @media (max-width: $mobile_max) {
+    min-width: 280px;
     padding: 50px 0 12px;
   }
 }
@@ -47,9 +48,9 @@
   }
 
   @media (max-width: $mobile_max) {
+    min-width: 280px;
     min-height: 1188.9px;
   }
-  //background-color: green;
 }
 
 .types__item-road {
