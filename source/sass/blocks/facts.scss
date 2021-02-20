@@ -12,6 +12,10 @@
     margin: -1px 0 0 0;
     padding: 70px 0 50px 0;
   }
+
+  @media (max-width: $mobile_max) {
+    padding: 70px 0 77px 0;
+  }
 }
 
 .facts__heading h2 {
@@ -96,26 +100,5 @@
 
   @media (max-width: $mobile_max) {
     font-size: 18px;
-
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
