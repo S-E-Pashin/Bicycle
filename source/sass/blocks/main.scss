@@ -21,7 +21,19 @@
     align-items: center;
     width: 100%;
     margin: 0;
+
+    background-image: url("../img/promo-img.jpg");
+    background-size: 100% 439px;
+    background-position: center -49px;
+    background-repeat: no-repeat;
   }
 
+  @media (max-width: $mobile_max) {
+    min-width: $mobile_min;
+    background-image: url("../img/promo-img-mobile.jpg");
+    background-size: 174% 396px;
+    background-position: center -2px;
+    object-fit: cover;
+  }
   //background-color: blue;
 }

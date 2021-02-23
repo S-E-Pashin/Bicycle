@@ -9,16 +9,17 @@ body {
   object-fit: cover;
 
   @media (max-width: $tablet_max) {
-    background-size: 100% 439px;
-    background-position: center -49px
-    //object-fit: none;
+    //background-image: url("../img/promo-img.jpg");
+    //background-size: 100% 439px;
+    //background-position: center -49px;
+    ////object-fit: none;
+    background-image: none;
   }
 
-  @media (max-width: $mobile_max) {
-    min-width: $mobile_min;
-    background-image: url("../img/promo-img-mobile.jpg");
-    background-size: 174% 396px;
-    background-position: center -2px;
-  }
-  //overflow: hidden;
+  //@media (max-width: $mobile_max) {
+  //  //min-width: $mobile_min;
+  //  //background-image: url("../img/promo-img-mobile.jpg");
+  //  //background-size: 174% 396px;
+  //  //background-position: center -2px;
+  //}
 }
