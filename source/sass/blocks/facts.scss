@@ -54,7 +54,6 @@
     width: 87.5vw;
     min-height: 597px;
     margin: 32px 0 0 0;
-    //background-color: red;
   }
 }
 
@@ -70,7 +69,6 @@
   @media (max-width: $mobile_max) {
     width: 87.5vw;
     min-height: 116px;
-    //background-color: blue;
   }
 }
 
@@ -79,7 +77,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: blue;
 }
 
 .facts__item-number span {
@@ -88,7 +85,6 @@
   font-weight: 700;
   text-align: center;
   color: $button_color_form;
-  //background: red;
 }
 
 .facts__item-text p {

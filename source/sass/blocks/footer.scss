@@ -127,13 +127,17 @@
   }
 }
 
-.footer__contact span {
+.footer__contact a {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   text-align: center;
   color: $text_third_color;
   opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .footer__mail {

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Лучшие велосипеды по лучшим условиям, компания велосипеды подберет максимально подходящий вам велосипед и поможет получить от этого как можно больше удовольствия. Возможна доставка. Звоните по телефону +749978468446"/>
   <title>Сайт компании "Велосипеды"</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link href="fonts/opensanslight.woff2" rel="preload" as="font" crossorigin="anonymous">
@@ -32,14 +33,15 @@
 
 <main class="main">
   <h1 class="visually_hidden">Сайт компании "Велосипеды"</h1>
-
   <div class="main__promo-form-wrapper">
     <section class="promo">
       <div class="promo__button-logo-wrapper">
         <div class="promo__logo">
-          <svg class="promo__logo-svg" width="68" height="21" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <use xlink:href="img/sprite.svg#icon-logo"></use>
-          </svg>
+          <a href="#" aria-label="Вы находитесь на изображении логотипа компании Велосипеды.">
+            <svg class="promo__logo-svg" width="68" height="21" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
         </div>
         <div class="promo__button-nav">
         </div>
@@ -64,7 +66,7 @@
           <label for="form-id-tel" class="visually_hidden">Поле для ввода телефона</label>
           <input type="tel" name="form-name-tel" placeholder="Введите Ваш номер телефона" id="form-id-tel" required pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
         </div>
-        <button class="form__button-submit" type="submit">Подобрать велосипед мечты</button>
+        <button class="form__button-submit" type="submit" aria-label="Нажмите для того что бы мы смогли с вами связаться">Подобрать велосипед мечты</button>
       </form>
     </section>
   </div>
@@ -127,7 +129,7 @@
         </div>
       </div>
       <div class="video__area">
-        <button type="button" class="video__button"></button>
+        <button type="button" class="video__button" aria-label="Нажмите для просмотра видео"></button>
       </div>
     </div>
   </section>
@@ -144,12 +146,10 @@
     </div>
     <div class="footer__map"></div>
     <div class="footer__contact">
-      <div class="footer__mail"><span>puteshestviemechta@gmail.ru</span></div>
-      <div class="footer__tel"><span>+7 (499) -784-684-46</span></div>
+      <div class="footer__mail"><a href="mailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></div>
+      <div class="footer__tel"><a href="tel:+749978468446">+7 (499) -784-684-46</a></div>
     </div>
 </footer>
 <script src="js/script.js"></script>
-
-
 </body>
 </html>

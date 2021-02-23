@@ -4,12 +4,10 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
-  //background-image: url("../img/promo-img.jpg");
 }
 
 html {
   box-sizing: border-box;
-  //background-color: $bg_second_color;
 }
 
 *,
@@ -31,15 +29,12 @@ img {
 input[type="checkbox"].visually_hidden,
 input[type="radio"].visually_hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
