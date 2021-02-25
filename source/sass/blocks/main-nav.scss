@@ -31,7 +31,7 @@
     flex-direction: column;
     min-height: 330px;
     width: 100%;
-    min-width: 320px;
+    min-width: $mobile_min;
     margin-top: 57px;
     border: none;
   }

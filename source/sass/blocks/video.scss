@@ -1,19 +1,20 @@
 .video {
   display: grid;
   grid-template-rows: 125px 157px 424px 98px;
-  grid-template-columns: 17.77vw 64.51vw 17.77vw;
+  grid-template-columns: 1fr 64.51vw 1fr;
   width: 100%;
   background-color: $bg_first_color;
 
   @media (max-width: $tablet_max) {
     grid-template-rows: 75px 141px 196px 86px;
-    grid-template-columns: 17.3vw 65.4vw 17.3vw;
+    grid-template-columns: 1fr 65.4vw 1fr;
   }
 
   @media (max-width: $mobile_max) {
     grid-template-rows: 90px 181px 113px 48px;
-    grid-template-columns: 5vw 90vw 5vw;
-    min-width: 320px;
+    grid-template-columns: 1fr 90vw 1fr;
+    //min-width: 320px;
+    min-width: 280px;
   }
 }
 
@@ -21,7 +22,8 @@
   grid-row: 1 / -2;
   grid-column: 1 / -1;
   background-color: $bg_five_color;
-  min-width: 320px;
+  //min-width: 320px;
+  min-width: 280px;
 }
 
 .video__field {
@@ -107,15 +109,14 @@
   flex-wrap: wrap;
   width: 100%;
   min-height: 522px;
-  background-color: $text_fourth_color;
+  background-color: $bg_five_color;
   background-image: url("../img/video-img.jpg");
-  background-position: top center;
+  background-position: center center;
+  background-size: contain;
   background-repeat: no-repeat;
-  object-fit: cover;
 
   @media (max-width: $tablet_max) {
     min-height: 282px;
-    background-size: 100%;
   }
 
   @media (max-width: $mobile_max) {

@@ -112,6 +112,8 @@
   align-items: center;
   flex-wrap: wrap;
   width: 38.98vw;
+
+  min-width: 505px;
   margin-top: 40px;
 
   @media (max-width: $tablet_max) {

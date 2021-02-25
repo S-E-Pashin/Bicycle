@@ -56,6 +56,12 @@
   height: 48px;
   border: 1px solid $bg_second_color;
   border-radius: 6px;
+  padding-left: 30px;
+
+  &:hover {
+    background-color: $bg_third_color;
+    border: 1px solid $input_color_hover;
+  }
 
   @media (max-width: $mobile_max) {
     width: 288px;
@@ -68,7 +74,6 @@
 
 .form__field input::-webkit-input-placeholder, {
   font-family: $font;
-  padding-left: 30px;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -92,6 +97,11 @@
   background-color: $button_color_form;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button_color_hover;
+  }
 
   @media (max-width: $mobile_max) {
     width: 288px;
