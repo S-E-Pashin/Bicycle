@@ -7,6 +7,7 @@
   width: 100%;
   padding: 149px 0 132px 0;
   background-color: $bg_fourth_color;
+  overflow: hidden;
 
   @media (max-width: $tablet_max) {
     padding: 50px 0 19px 0;
@@ -39,34 +40,28 @@
   align-items: start;
   flex-wrap: wrap;
   width: 78.2vw;
-  //min-width: 1079px;
   max-width: 1127px;
   margin: 50px 0 0 0;
 
+  @media (min-width: 1024px) and (max-width: 1373px) {
+    min-width: 1004px;
+  }
 
   @media (max-width: $tablet_max) {
     width: 83.5vw;
     margin: 30px 0 0 0;
     min-width: 650px;
-    //min-width: 850px;
     min-height: 808.9px;
   }
 
-
   @media (min-width: 970px) and (max-width: 1023px) {
     min-width: 850px;
-  }
-
-  @media (max-width: $tablet_max) {
-
   }
 
   @media (min-width: 630px) and (max-width: 767px) {
     min-height: 856px;
   }
 
-
-  //@media (max-width: $mobile_max) {
   @media (max-width: 629px) {
     min-width: 280px;
     min-height: 1188.9px;
@@ -88,6 +83,10 @@
     background-repeat: no-repeat;
     background-size: 100%;
     z-index: 1;
+
+    @media (min-width: 1024px) and (max-width: 1373px) {
+      right: 200px;
+    }
 
     @media (max-width: $tablet_max) {
       bottom: 26px;
@@ -199,6 +198,12 @@
     background-size: 100%;
     z-index: 1;
 
+    @media (min-width: 1024px) and (max-width: 1373px) {
+      z-index: 1;
+      bottom: 533px;
+      right: -36px;
+    }
+
     @media (max-width: $tablet_max) {
       bottom: 306px;
       right: -25px;
@@ -239,6 +244,11 @@
 
 .types__item .types__img {
   border-radius: 10px;
+
+  @media (min-width: 1024px) and (max-width: 1373px) {
+    width: 320px;
+    background-size: auto;
+  }
 
   @media (max-width: $tablet_max) {
     width: 270px;

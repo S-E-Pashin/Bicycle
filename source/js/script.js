@@ -4,7 +4,7 @@
   var mainNavCloseButton = document.querySelector('.main-nav__close-wrapper');
   var mainNav = document.querySelector('.main-nav');
   var mainNavOpenButton = document.querySelector('.promo__button-nav');
-  var header = document.querySelector('.header')
+  var header = document.querySelector('.header');
 
   var hideMainNav = function () {
     if (mainNav.classList.contains('main-nav--js-close') !== true) {

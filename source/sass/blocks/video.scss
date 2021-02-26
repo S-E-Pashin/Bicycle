@@ -13,7 +13,6 @@
   @media (max-width: $mobile_max) {
     grid-template-rows: 90px 181px 113px 48px;
     grid-template-columns: 1fr 90vw 1fr;
-    //min-width: 320px;
     min-width: 280px;
   }
 }
@@ -22,7 +21,6 @@
   grid-row: 1 / -2;
   grid-column: 1 / -1;
   background-color: $bg_five_color;
-  //min-width: 320px;
   min-width: 280px;
 }
 
