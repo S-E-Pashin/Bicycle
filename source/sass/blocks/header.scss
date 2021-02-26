@@ -9,5 +9,12 @@
   @media (max-width: $tablet_max) {
     min-width: $mobile_min;
     background-color: $bg_first_color;
+
+
+    &--js {
+      height: 100%;
+      position: fixed;
+      z-index: 100;
+    }
   }
 }

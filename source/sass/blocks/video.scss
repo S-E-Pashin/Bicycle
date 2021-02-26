@@ -135,6 +135,13 @@
   background-image: url("../img/icon-video-button.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $button_color_hover;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
 
   @media (max-width: $tablet_max) {
     width: 90px;

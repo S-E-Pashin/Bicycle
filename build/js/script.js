@@ -4,16 +4,19 @@
   var mainNavCloseButton = document.querySelector('.main-nav__close-wrapper');
   var mainNav = document.querySelector('.main-nav');
   var mainNavOpenButton = document.querySelector('.promo__button-nav');
+  var header = document.querySelector('.header')
 
   var hideMainNav = function () {
     if (mainNav.classList.contains('main-nav--js-close') !== true) {
       mainNav.classList.add('main-nav--js-close');
+      header.classList.remove('header--js');
     }
   };
 
   var showMainNav = function () {
     if (mainNav.classList.contains('main-nav--js-close') === true) {
       mainNav.classList.remove('main-nav--js-close');
+      header.classList.add('header--js');
     }
   };
 
