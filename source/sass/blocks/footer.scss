@@ -6,15 +6,15 @@
   flex-wrap: wrap;
   width: 100%;
   margin-top: -1px;
-  padding: 154px 0 96px 0;
+  padding: 154px 0 89px 0;
   background-color: $bg_first_color;
 
   @media (max-width: $tablet_max) {
-    padding: 72px 0 55px 0;
+    padding: 72px 0 46px 0;
   }
 
   @media (max-width: $mobile_max) {
-    padding: 72px 0 52px;
+    padding: 72px 0 43px;
   }
 }
 
@@ -83,6 +83,7 @@
 
 .footer__map {
   width: 66.55vw;
+  max-width: 958px;
   min-height: 530px;
   margin-top: 40px;
   background-color: $bg_map_color;
@@ -112,6 +113,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 38.98vw;
+  max-width: 562px;
 
   min-width: 505px;
   margin-top: 40px;
@@ -124,7 +126,8 @@
   @media (max-width: $mobile_max) {
     flex-direction: column;
     width: 80.98vw;
-    min-height: 67px;
+    min-width: 280px;
+    min-height: 77px;
     margin-top: 32px;
   }
 }
@@ -134,22 +137,27 @@
   line-height: 22px;
   font-weight: 400;
   text-align: center;
-  color: $text_third_color;
-  opacity: 0.5;
+  color: $text_third_color_50;
+  opacity: 1;
 
   &:hover {
-    opacity: 1;
+    opacity: 0.8;
+    color: $text_third_color;
   }
 }
 
-.footer__mail {
+.footer__contact div {
+  margin-bottom: 10px;
+}
+
+.footer__mail a {
   padding-left: 41px;
   background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-position: left center;
 }
 
-.footer__tel {
+.footer__tel a {
   padding: 0 16px 0 35px;
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
