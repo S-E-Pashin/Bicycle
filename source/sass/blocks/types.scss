@@ -89,32 +89,24 @@
     }
 
     @media (max-width: $tablet_max) {
-      bottom: 26px;
-      right: 180px;
+      bottom: 30px;
+      right: 178px;
       width: 127px;
       height: 127px;
     }
 
     @media (max-width: $mobile_max) {
-      bottom: 25px;
+      bottom: 28px;
       right: 169px;
     }
   }
 }
 
-.types__item-road .types__img {
+.types__item-road img {
   position: relative;
-  width: 342px;
   height: 503px;
   z-index: 5;
   background-color: #707b46;
-  background-image: url("../img/bicycle-road.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-
-  @media (max-width: $tablet_max) {
-    background-image: url("../img/bicycle-road-tablet.jpg");
-  }
 }
 
 .types__item-mountain {
@@ -122,18 +114,14 @@
   margin-top: 39px;
 }
 
-.types__item-mountain .types__img {
+.types__item-mountain img {
   position: relative;
   width: 342px;
   height: 566px;
   background-color: #7b6149;
-  background-image: url("../img/bicycle-mountain.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
 
-  @media (max-width: $tablet_max) {
-    background-image: url("../img/bicycle-mountain-tablet.jpg");
-  }
+.types__item-mountain .types__img {
 
   &::before {
     content: "";
@@ -145,12 +133,13 @@
     background-image: url("../img/square.svg");
     background-repeat: no-repeat;
     background-size: 100%;
+    z-index: 5;
   }
 
   &::after {
     content: "";
     position: absolute;
-    bottom: -23px;
+    bottom: 48px;
     right: -23px;
     width: 47px;
     height: 47px;
@@ -174,17 +163,13 @@
   min-height: 596px;
 }
 
-.types__item-children .types__img {
+.types__item-children img {
   width: 342px;
   height: 513px;
   background-color: #c9b2b1;
-  background-image: url("../img/bicycle-children.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
 
-  @media (max-width: $tablet_max) {
-    background-image: url("../img/bicycle-children-tablet.jpg");
-  }
+.types__item-children .types__img {
 
   &::after {
     content: "";
@@ -205,14 +190,14 @@
     }
 
     @media (max-width: $tablet_max) {
-      bottom: 306px;
-      right: -25px;
+      bottom: 310px;
+      right: -26px;
       width: 68px;
       height: 68px;
     }
 
     @media (max-width: $mobile_max) {
-      bottom: 306px;
+      bottom: 310px;
       right: -13px;
     }
   }
@@ -242,17 +227,15 @@
   }
 }
 
-.types__item .types__img {
+.types__item img {
   border-radius: 10px;
 
   @media (min-width: 1024px) and (max-width: 1373px) {
     width: 320px;
-    background-size: auto;
   }
 
   @media (max-width: $tablet_max) {
     width: 270px;
     height: 300px;
-    object-fit: cover;
   }
 }
