@@ -165,6 +165,19 @@
         </div>
       </div>
       <div class="video__area">
+        <div class="video__img">
+          <picture>
+            <source type="image/webp" media="(min-width: 1024px)" srcset="img/video-desktop_1x.webp 1x, img/video-desktop_2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet_1x.webp 1x, img/video-tablet_2x.webp 2x">
+            <source type="image/webp" media="(min-width: 320px)" srcset="img/video-mobile_1x.webp 1x, img/video-mobile_2x.webp 2x">
+            <source type="image/webp" srcset="img/video-desktop_1x.webp 1x, img/video-desktop_2x.webp 2x">
+            <source media="(min-width: 1024px)" srcset="img/video-desktop_1x.jpg 1x, img/video-desktop_2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet_1x.jpg 1x, img/video-tablet_2x.jpg 2x">
+            <source media="(min-width: 320px)" srcset="img/video-mobile_1x.jpg 1x, img/video-mobile_2x.jpg 2x">
+            <!-- 1х: 929px; 2x: 1858px -->
+            <img src="img/video-desktop_1x.jpg" srcset="img/video-desktop_2x.jpg 2x" width="929" height="522" alt="Видео для ознакомления с особенностями подбора велосипеда">
+          </picture>
+        </div>
         <a href="#" class="video__button" aria-label="Нажмите для просмотра видео"></a>
       </div>
     </div>
